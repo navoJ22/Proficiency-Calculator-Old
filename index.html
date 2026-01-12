@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Proficiency Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- LEFT PANEL -->
+  <div class="left">
+    <div class="heropage" onclick="openPicker()">
+      <div class="hero-select">Select Hero</div>
+      <div class="hero-name" id="heroName">None</div>
+    </div>
+
+    <div class="hero-box">
+      <div class="hero-icon">
+        <img id="heroImg" src="assets/DisplayIcon/none.png">
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT PANEL -->
+  <div class="right">
+    <h1>Proficiency Calculator</h1>
+
+    <label>Current Rank</label>
+    <select id="rank">
+      <option class="Agent">Agent</option>
+      <option class="Knight">Knight</option>
+      <option class="Captain">Captain</option>
+      <option class="Centurion">Centurion</option>
+    </select>
+
+    <label>Current Points</label>
+    <input id="currentPoints" type="number">
+
+    <h2>Average stats per 10 minutes</h2>
+
+    <label id="label-block">Damage Blocked</label>
+    <input id="block" type="number">
+
+    <label id="label-kos">KOs</label>
+    <input id="kos" type="number">
+
+    <label id="label-souls">Souls Released</label>
+    <input id="souls" type="number">
+
+    <label id="label-stun">Stuns</label>
+    <input id="stun" type="number">
+
+    <button onclick="simulate()">Calculate</button>
+    <div class="result" id="result"></div>
+  </div>
+</div>
+
+<!-- HERO PICKER -->
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <h3>Change Hero</h3>
+    <div class="hero-grid" id="heroGrid"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
