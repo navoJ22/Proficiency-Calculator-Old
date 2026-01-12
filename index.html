@@ -1,66 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Proficiency Calculator</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="Assets/favicon.png">
+	<meta charset="UTF-8">
+	<title>Proficiency Calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="Assets/favicon.png">
 </head>
 <body>
 
 <div class="app">
 
-  <!-- LEFT PANEL -->
-  <div class="left">
-    <div class="heropage" onclick="openPicker()">
-      <div class="hero-select">Select Hero</div>
-      <div class="hero-name" id="heroName">None</div>
-    </div>
-    <div class="hero-box">
-      <div class="hero-icon">
-        <img id="heroImg" src="assets/DisplayIcon/none.png" alt="">
-      </div>
-      
-    </div>
-  </div>
+	<!-- LEFT PANEL -->
+	<div class="left">
+		<div class="heropage" onclick="openPicker()">
+			<div class="hero-select">Select Hero</div>
+			<div class="hero-name" id="heroName">None</div>
+		</div>
+		<div class="hero-box">
+			<div class="hero-icon">
+				<img id="heroImg" src="assets/DisplayIcon/none.png" alt="">
+			</div>
+			
+		</div>
+	</div>
 
-  <!-- RIGHT PANEL -->
-  <div class="right">
-    <h1>Proficiency Calculator</h1>
+	<!-- RIGHT PANEL -->
+	<div class="right">
+		<h1>Proficiency Calculator</h1>
 
-    <label>Current Rank</label>
-    <select id="rank">
-      <option class="Agent">Agent</option>
-      <option class="Knight">Knight</option>
-      <option class="Captain">Captain</option>
-      <option class="Centurion">Centurion</option>
-    </select>
+		<label>Current Rank</label>
+		<select id="rank">
+			<option class="Agent">Agent</option>
+			<option class="Knight">Knight</option>
+			<option class="Captain">Captain</option>
+			<option class="Centurion">Centurion</option>
+		</select>
 
-    <label>Current Points</label>
-    <input type="number" id="currentPoints">
+		<label>Current Points</label>
+		<input type="number" id="currentPoints">
 
-    <h2>Average stats per 10 minutes</h2>
+		<h2>Average stats per 10 minutes</h2>
 <!-- <label>Damage Blocked</label>
-    <input type="number" id="block">
+		<input type="number" id="block">
 
-    <label>KOs</label>
-    <input type="number" id="kos">
+		<label>KOs</label>
+		<input type="number" id="kos">
 
-    <label>Souls Released</label>
-    <input type="number" id="souls"> -->
+		<label>Souls Released</label>
+		<input type="number" id="souls"> -->
 
-    <button onclick="simulate()">Calculate</button>
-    <div class="result" id="result"></div>
-  </div>
+		<button onclick="simulate()">Calculate</button>
+		<div class="result" id="result"></div>
+		<div class="infobar">
+			<h3>Website made by navoJ</h3>
+			<h3>Send your feedback <a href="https://discord.gg/pSa8RHk6">here</a></h3>
+		</div>
+	</div>
 
 </div>
 
 <!-- HERO PICKER MODAL -->
 <div class="modal" id="modal">
-  <div class="modal-content">
-    <h3>Change Hero</h3>
-    <div class="hero-grid" id="heroGrid"></div>
-  </div>
+	<div class="modal-content">
+		<h3>Change Hero</h3>
+		<div class="hero-grid" id="heroGrid"></div>
+	</div>
 </div>
 
 <script src="script.js"></script>
