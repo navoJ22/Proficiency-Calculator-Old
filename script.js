@@ -240,7 +240,7 @@ const heroMissions = {
     }
   },
 
-  "Bruce Banner / Hulk": {
+  "Bruce Banner": {
     Agent: {
       time:  { req: 60, pts: 60, name: "Minutes Played" },
       task2: { req: 21000, pts: 50, name: "Damage Blocked" },
@@ -1417,4 +1417,5 @@ Time to Lord: ${minutes} minutes
 Hours: ${(minutes / 60).toFixed(2)}
 Proficiency gained: ${gained}`;
 }
+
 
