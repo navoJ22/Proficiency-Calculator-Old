@@ -46,35 +46,35 @@ body {
 
 @font-face {
   font-family: "Refrigerator";
-  src: url("Assets/Refrigerator Deluxe Light.otf") format("opentype");
+  src: url("./Assets/Refrigerator Deluxe Light.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Refrigerator";
-  src: url("Assets/Refrigerator Deluxe.otf") format("opentype");
+  src: url("./Assets/Refrigerator Deluxe.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Refrigerator";
-  src: url("Assets/Refrigerator Deluxe Bold.otf") format("opentype");
+  src: url("./Assets/Refrigerator Deluxe Bold.otf") format("opentype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Refrigerator";
-  src: url("Assets/Refrigerator Deluxe Heavy.otf") format("opentype");
+  src: url("./Assets/Refrigerator Deluxe Heavy.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Refrigerator";
-  src: url("Assets/Refrigerator Deluxe Extrabold.otf") format("opentype");
+  src: url("./Assets/Refrigerator Deluxe Extrabold.otf") format("opentype");
   font-weight: 900;
   font-style: normal;
 }
@@ -127,12 +127,12 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  -webkit-mask-image: url("/Assets/DisplayIcon/mask.png");
+  -webkit-mask-image: url("./Assets/DisplayIcon/mask.png");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: contain;
   -webkit-mask-position: center;
 
-  mask-image: url("/Assets/DisplayIcon/mask.png");
+  mask-image: url("./Assets/DisplayIcon/mask.png");
   mask-repeat: no-repeat;
   mask-size: contain;
   mask-position: center;
@@ -288,5 +288,6 @@ button:hover{
   font-size: 0.85rem;
 }
 /* #endregion */
+
 
 
