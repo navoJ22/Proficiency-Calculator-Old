@@ -11,10 +11,10 @@ function heroToFile(name) {
   return name.toLowerCase().replace(/[^a-z]/g, "");
 }
 function heroPickerImg(name) {
-  return `assets/hero/${heroToFile(name)}.png`;
+  return `Assets/hero/${heroToFile(name)}.png`;
 }
 function heroDisplayImg(name) {
-  return `assets/DisplayIcon/${heroToFile(name)}.png`;
+  return `Assets/DisplayIcon/${heroToFile(name)}.png`;
 }
 
 /* ================= HERO LIST ================= */
@@ -1417,5 +1417,6 @@ Time to Lord: ${minutes} minutes
 Hours: ${(minutes / 60).toFixed(2)}
 Proficiency gained: ${gained}`;
 }
+
 
 
