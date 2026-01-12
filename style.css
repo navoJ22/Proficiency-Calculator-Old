@@ -46,35 +46,35 @@ body {
 
 @font-face {
   font-family: "Refrigerator";
-  src: url("assets/Refrigerator Deluxe Light.otf") format("opentype");
+  src: url("Assets/Refrigerator Deluxe Light.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Refrigerator";
-  src: url("assets/Refrigerator Deluxe.otf") format("opentype");
+  src: url("Assets/Refrigerator Deluxe.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Refrigerator";
-  src: url("assets/Refrigerator Deluxe Bold.otf") format("opentype");
+  src: url("Assets/Refrigerator Deluxe Bold.otf") format("opentype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Refrigerator";
-  src: url("assets/Refrigerator Deluxe Heavy.otf") format("opentype");
+  src: url("Assets/Refrigerator Deluxe Heavy.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Refrigerator";
-  src: url("assets/Refrigerator Deluxe Extrabold.otf") format("opentype");
+  src: url("Assets/Refrigerator Deluxe Extrabold.otf") format("opentype");
   font-weight: 900;
   font-style: normal;
 }
@@ -288,3 +288,4 @@ button:hover{
   font-size: 0.85rem;
 }
 /* #endregion */
+
