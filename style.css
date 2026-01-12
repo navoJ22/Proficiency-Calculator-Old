@@ -46,35 +46,35 @@ body {
 
 @font-face {
   font-family: "Refrigerator";
-  src: url("./Assets/Refrigerator Deluxe Light.otf") format("opentype");
+  src: url("./assets/Refrigerator Deluxe Light.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Refrigerator";
-  src: url("./Assets/Refrigerator Deluxe.otf") format("opentype");
+  src: url("./assets/Refrigerator Deluxe.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Refrigerator";
-  src: url("./Assets/Refrigerator Deluxe Bold.otf") format("opentype");
+  src: url("./assets/Refrigerator Deluxe Bold.otf") format("opentype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Refrigerator";
-  src: url("./Assets/Refrigerator Deluxe Heavy.otf") format("opentype");
+  src: url("./assets/Refrigerator Deluxe Heavy.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Refrigerator";
-  src: url("./Assets/Refrigerator Deluxe Extrabold.otf") format("opentype");
+  src: url("./assets/Refrigerator Deluxe Extrabold.otf") format("opentype");
   font-weight: 900;
   font-style: normal;
 }
@@ -191,16 +191,16 @@ button:hover{
 }
 
 .Agent {
-  background-image: url("Assets/Icon/agent.png");
+  background-image: url("assets/Icon/agent.png");
 }
 .Knight {
-  background-image: url("Assets/Icon/knight.png");
+  background-image: url("assets/Icon/knight.png");
 }
 .Captain {
-  background-image: url("Assets/Icon/captain.png");
+  background-image: url("assets/Icon/captain.png");
 }
 .Centurion {
-  background-image: url("Assets/Icon/centurion.png");
+  background-image: url("assets/Icon/centurion.png");
 }
 /* #endregion */
 
@@ -253,7 +253,7 @@ button:hover{
   text-align: center;
   background: #0f0f0f;
   box-sizing: border-box;
-  background-image: url(Assets/herobg.png);
+  background-image: url(assets/herobg.png);
   margin: 5px;
 }
 
@@ -288,6 +288,7 @@ button:hover{
   font-size: 0.85rem;
 }
 /* #endregion */
+
 
 
 
