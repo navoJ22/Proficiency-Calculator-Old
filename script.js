@@ -887,7 +887,32 @@ const heroMissions = {
 			task4: { req: 15000, pts: 50, name: "Arachno-Mine Damage" }
 		}
 	},
-
+	"Phoenix": {
+		Agent: {
+			time:  { req: 60, pts: 60, name: "Minutes Played" },
+			task2: { req: 11000, pts: 10, name: "Damage Dealt" },
+			task3: { req: 12, pts: 10, name: "Final Hits" },
+			task4: { req: 80, pts: 10, name: "Spark Explosions" }
+		},
+		Knight: {
+			time:  { req: 60, pts: 60, name: "Minutes Played" },
+			task2: { req: 28000, pts: 25, name: "Damage Dealt" },
+			task3: { req: 30, pts: 25, name: "Final Hits" },
+			task4: { req: 200, pts: 25, name: "Spark Explosions" }
+		},
+		Captain: {
+			time:  { req: 60, pts: 60, name: "Minutes Played" },
+			task2: { req: 45000, pts: 40, name: "Damage Dealt" },
+			task3: { req: 50, pts: 40, name: "Final Hits" },
+			task4: { req: 320, pts: 40, name: "Spark Explosions" }
+		},
+		Centurion: {
+			time:  { req: 60, pts: 60, name: "Minutes Played" },
+			task2: { req: 55000, pts: 50, name: "Damage Dealt" },
+			task3: { req: 65, pts: 50, name: "Final Hits" },
+			task4: { req: 400, pts: 50, name: "Spark Explosions" }
+		}
+	},
 	"Psylocke": {
 		Agent: {
 			time:  { req: 60, pts: 60, name: "Minutes Played" },
@@ -1417,6 +1442,7 @@ Time to Lord: ${minutes} minutes
 Hours: ${(minutes / 60).toFixed(2)}
 Proficiency gained: ${gained}`;
 }
+
 
 
 
