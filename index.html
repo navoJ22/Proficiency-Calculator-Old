@@ -15,11 +15,11 @@
       <div class="hero-select">Select Hero</div>
       <div class="hero-name" id="heroName">None</div>
     </div>
-
     <div class="hero-box">
       <div class="hero-icon">
-        <img id="heroImg" src="assets/DisplayIcon/none.png">
+        <img id="heroImg" src="assets/DisplayIcon/none.png" alt="">
       </div>
+      
     </div>
   </div>
 
@@ -36,28 +36,25 @@
     </select>
 
     <label>Current Points</label>
-    <input id="currentPoints" type="number">
+    <input type="number" id="currentPoints">
 
     <h2>Average stats per 10 minutes</h2>
+<!-- <label>Damage Blocked</label>
+    <input type="number" id="block">
 
-    <label id="label-block">Damage Blocked</label>
-    <input id="block" type="number">
+    <label>KOs</label>
+    <input type="number" id="kos">
 
-    <label id="label-kos">KOs</label>
-    <input id="kos" type="number">
-
-    <label id="label-souls">Souls Released</label>
-    <input id="souls" type="number">
-
-    <label id="label-stun">Stuns</label>
-    <input id="stun" type="number">
+    <label>Souls Released</label>
+    <input type="number" id="souls"> -->
 
     <button onclick="simulate()">Calculate</button>
     <div class="result" id="result"></div>
   </div>
+
 </div>
 
-<!-- HERO PICKER -->
+<!-- HERO PICKER MODAL -->
 <div class="modal" id="modal">
   <div class="modal-content">
     <h3>Change Hero</h3>
