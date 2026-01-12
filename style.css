@@ -253,7 +253,7 @@ button:hover{
   text-align: center;
   background: #0f0f0f;
   box-sizing: border-box;
-  background-image: url(assets/herobg.png);
+  background-image: url(./assets/herobg.png);
   margin: 5px;
 }
 
@@ -288,6 +288,7 @@ button:hover{
   font-size: 0.85rem;
 }
 /* #endregion */
+
 
 
 
