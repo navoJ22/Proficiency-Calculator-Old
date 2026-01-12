@@ -156,7 +156,7 @@ body {
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
-	min-height: 62%;
+	min-height: 800px;
 }
 
 label {
@@ -302,6 +302,7 @@ button:hover{
 }
 
 /* #endregion */
+
 
 
 
