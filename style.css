@@ -169,11 +169,11 @@ img{
 	height: 50px;
 	background-color: transparent;
 	border: none;
-	background-image: url(/assets/infohover.png);
+	background-image: url(./assets/infohover.png);
 	background-size:cover;
 }
 .infobutton:hover{
-	background-image: url(/assets/info.png);
+	background-image: url(./assets/info.png);
 }
 
 .right {
@@ -357,6 +357,7 @@ input, select, .calculate {
 
 
 /* #endregion */
+
 
 
 
