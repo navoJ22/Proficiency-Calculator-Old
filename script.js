@@ -887,6 +887,7 @@ const heroMissions = {
 			task4: { req: 15000, pts: 50, name: "Arachno-Mine Damage" }
 		}
 	},
+
 	"Phoenix": {
 		Agent: {
 			time:  { req: 60, pts: 60, name: "Minutes Played" },
@@ -913,6 +914,7 @@ const heroMissions = {
 			task4: { req: 400, pts: 50, name: "Spark Explosions" }
 		}
 	},
+
 	"Psylocke": {
 		Agent: {
 			time:  { req: 60, pts: 60, name: "Minutes Played" },
@@ -1443,8 +1445,22 @@ Hours: ${(minutes / 60).toFixed(2)}
 Proficiency gained: ${gained}`;
 }
 
+const infoBtn = document.querySelector(".infobutton");
+const infoPanel = document.getElementById("infoPanel");
+const infoContent = document.querySelector(".infocontent");
 
+infoBtn.addEventListener("click", (e) => {
+	e.stopPropagation();
+	infoPanel.style.display = "flex";
+});
 
+infoPanel.addEventListener("click", () => {
+	infoPanel.style.display = "none";
+});
+
+infoContent.addEventListener("click", (e) => {
+	e.stopPropagation();
+});
 
 
 
