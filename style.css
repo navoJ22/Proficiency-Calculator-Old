@@ -13,6 +13,17 @@ body {
 	height: 100vh;
 }
 
+a{
+	color: #fede32;
+}
+a:hover{
+	color: white;
+}
+img{
+	-webkit-user-drag: none;
+
+}
+
 /* #region scrollbar*/
 
 
@@ -127,12 +138,12 @@ body {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	-webkit-mask-image: url("./assets/displayicon/mask.png");
+	-webkit-mask-image: url("../assets/displayicon/mask.png");
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-size: contain;
 	-webkit-mask-position: center;
 
-	mask-image: url("./assets/displayicon/mask.png");
+	mask-image: url("../assets/displayicon/mask.png");
 	mask-repeat: no-repeat;
 	mask-size: contain;
 	mask-position: center;
@@ -146,6 +157,24 @@ body {
 /* #endregion */
 
 /* #region RIGHT*/
+
+.topbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.infobutton{
+	width: 50px;
+	height: 50px;
+	background-color: transparent;
+	border: none;
+	background-image: url(/assets/infohover.png);
+	background-size:cover;
+}
+.infobutton:hover{
+	background-image: url(/assets/info.png);
+}
 
 .right {
 	width: 62%;
@@ -164,14 +193,14 @@ label {
 	color: #ffffff;
 }
 
-input, select, button {
+input, select, .calculate {
 	box-sizing: border-box;
 	width: 100%;
 	margin: 6px 0 14px 0;
 	padding: 8px;
 }
 
-button {
+.calculate {
 	background: #ecf0fe;
 	color: #242632;
 	font-size: 24px !important;
@@ -182,7 +211,7 @@ button {
 	font-weight: bold;
 }
 
-button:hover{
+.calculate:hover{
 	background: #fede32;
 }
 
@@ -301,9 +330,33 @@ button:hover{
 	margin-top: auto;
 }
 
+.info-panel{
+	position: fixed;
+	inset: 0;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0,0,0,0.7);
+	z-index: 200;
+}
+
+.infocontent{
+	width: 80%;
+	height: 80%;
+	background: #181b24;
+	border: 2px solid #fede32;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+}
+
+.infocontent>img{
+	height: 100%;
+}
+
+
 /* #endregion */
-
-
 
 
 
